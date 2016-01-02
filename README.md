@@ -8,7 +8,6 @@ This is a repository used for the Help Page of [SimplePassVault](https://play.go
 Contents
 -----
 * __simple-pass-vault__ : contains the files uploaded to the hosting server
-* __large-images__ : contains the _images_ direcory, but app screenshots have a bigger size
 
 Info
 -----

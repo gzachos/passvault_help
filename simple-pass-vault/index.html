@@ -6,11 +6,12 @@
 -->
 <html>
 	<head>
-		<title>SimplePassVault Help</title>
+		<title>SimplePassVault v2.0 Help</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<link rel="shortcut icon" href="./images/favicon.ico" >
+		<link rel="shortcut icon" href="./images/favicon.ico" > <!-- This line was added by George Zachos -->
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
 		<script src="js/jquery.poptrox.min.js"></script>
@@ -20,13 +21,14 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<h1>Simple Pass Vault</h1>
+					<h1>Simple Pass Vault v2.0</h1>
 					<p>By SoKaS Android Application</p>
 				</header>
 				<footer>
@@ -34,7 +36,6 @@
 				</footer>
 			</section>
 		
-		<!-- Banner -->
 			<section id="banner">
 				<header>
 					<h2>This is Simple Pass Vault</h2>
@@ -45,115 +46,106 @@
 				</footer>
 			</section>
 		
-		<!-- Feature 1 -->
 			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/1_login_screen.png" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/01_login_screen.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>1.<br>Create a<br/>
 						user account</h2><br/>
 					</header>
-					<p>Press on the "Create User" button on the top right of the window, in order to add a new user. This account will only be used locally to access your passwords. No data is sent to or from the web.</p>
+					<p>Press on the "FIRST TIME? REGISTER" button on the bottom right of the window, in order to add a new user. This account will only be used locally to access your passwords. No data is sent to or from the web.</p>
 				</div>
 			</article>
 		
-		<!-- Feature 2 -->
 			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/2_create_user.png" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/02_register.png" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Select a username<br />
-						and a password</h2>
+						<h2>Complete the <br />
+						register form fields</h2>
 					</header>
-					<p>Complete the username and password fields. Make sure you remember your credentials because if lost, you will not be able to access or recover your account. </p>
+					<p>Complete the username and password fields. Make sure you remember your credentials because if lost, you will not be able to access or recover your account. Then click "Register".</p>
 				</div>
 			</article>
 		
-		<!-- Feature 3 -->
 			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/3_dropdown.png" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/03_sign_in.png" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>2.<br/>Log in<br />
+						<h2>2.<br/>Sign in<br />
 						to the app</h2>
 					</header>
-					<p>Now that you have created a new account, select your username from the dropdown menu, enter your password and press the "Login" button. </p>
+					<p>Now that you have created a new account, enter your username and password &amp; press the "SIGN IN" button. Checking the "Remember password" will do the obvious.</p>
 				</div>
 			</article>
 
-		<!-- Feature 4 -->
 			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/4_create_record.png" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/04_create_record.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>3.<br />Create a<br />
 						new record</h2>
 					</header>
-					<p>After loggin in, press on the "New Record" button on the top right of the window, in order to create a new record.</p>
+					<p>After loggin in, press on the "Add Record" button (depicted as the plus sign) on the bottom right of the window, in order to create a new record.</p>
 				</div>
 			</article>
 
-		<!-- Feature 5 -->
 			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/5_create_record.png" alt="" /></a>
+				<a href="#" class="image fit"><img src="images/05_choose_record_type.png" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>Pick the right<br />
+						<h2>Pick the correct<br />
 						record type</h2>
 					</header>
 					<p>From the "Record Type" dropdown menu, pick the category that fits the best to the record you are about to create.</p>
 				</div>
 			</article>
 		
-		<!-- Feature 6 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/6_create_record_type.png" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Custom<br />
-						 Record Types</h2>
-					</header>
-					<p>Can't default record types cover all your needs? Create your own! To create a new type, simply press "Add custom type", enter the desired name and press "Create". </p>
-				</div>
-			</article>
 
-		<!-- Feature 7 -->
-			<article class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/7_create_record.png" alt="" /></a>
+			<article class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/07_create_record_fields.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Complete the<br />
 						rest of the fields</h2>
 					</header>
-					<p>Complete as many of the fields following the "Record Type" dropdown menu, as you wish. You can either enter your own password or create a new one with password generator. Press on "Create Record" button to complete the process.</p>
+					<p>Complete as many of the fields following the "Record Type" dropdown menu, as you wish. You can either enter your own password or create a new one with password generator (light bulb icon). Press on "Create Record" button to complete the process.</p>
 				</div>
 			</article>
 		
-		<!-- Feature 8 -->
-			<article id="first" class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/8_generator.png" alt="" /></a>
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/08_generator.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Password Generator<br />
 						</h2>
 					</header>
-					<p>By leaving credential memorizing to SimplePassVault, you can now use unique and strong passwords when needed. Just press on "Generate" button, choose the length of the password and the character types you want to contain. Press "Generate" and "Save" to update the "Site Password" field.</p>
+					<p>By leaving credential memorizing to SimplePassVault, you can now use unique and strong passwords when needed. Choose the length of the password and the character types you want it to contain. Then press "Generate" and "Save" to update the "Password" field.</p>
 				</div>
 			</article>
 
-		<!-- Feature 9 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/9_categories.png" alt="" /></a>
+			<article id="first" class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/09_record_categorization.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Record<br />
 						Categorization</h2>
 					</header>
-					<p>After creating a record, you will automatically return to your account's "main screen". There, you can find a dropdown menu that will display the records of the type you select, or even all of them.</p>
+					<p>After creating a record, you will automatically return to your account's "main screen". On the top left of it, you can find a button that will display the available record types. Clicking one, will display the records of that category.</p>
 				</div>
 			</article>
 
-		<!-- Feature 10 -->
+			<article class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/06_new_record_type.png" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Custom<br />
+						 Record Types</h2>
+					</header>
+					<p>Default record types can't cover all your needs? Create your own! To create a new type, simply press "ADD RECORD TYPE" from the record type display screen (shown above), enter the desired name and press "OK". </p>
+				</div>
+			</article>
+
 			<article class="container box style1 left">
 				<a href="#" class="image fit"><img src="images/10_modify_record.png" alt="" /></a>
 				<div class="inner">
@@ -161,34 +153,61 @@
 						<h2>Record Display<br />
 						and Modification</h2>
 					</header>
-					<p>Press on any record shown at your account's "main screen" to view it's details, modify it or even delete it. SimplePassVault allows you moving directly to the URL that you have entered while creating the record, by just pressing "Go to site" button.</p>
+					<p>Click on any record to view it's details, modify it or even delete it. SimplePassVault allows you moving directly to the URL that you have entered while creating the record, by just pressing "GO TO SITE" button.</p>
 				</div>
 			</article>
 
-			<!-- Feature 11 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="images/11_app_dropdown.png" alt="" /></a>
+			<article class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/14_search.png" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Record search</h2>
+					</header>
+					<p>Record search will return records whose "Name" or "URL" matches the query. When viewing a specific record type e.g. Bank, search will take place among "Bank" type records. To search among all of them, you should be viewing "All".</p>
+				</div>
+			</article>
+
+			<article id="first" class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/11_main_menu.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Main Menu</h2>
 					</header>
-					<p>On the top right corner of the account's "main screen", you can find the "Menu" button. From this menu you can export/import your records to/from a '.csv' file, select whether you want your records to be alphabetically ordered, Logout or enter "Settings Menu".</p>
+					<p>On the top right corner of the account's "main screen", you can find the "Menu" button. From this menu you can export/import your records to/from a '.csv' file, enter application "Settings", or even exit application.</p>
 				</div>
 			</article>
 
-		<!-- Feature 12 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="images/12_menu.png" alt="" /></a>
+			<article id="first" class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/11_export.png" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Export Records</h2>
+					</header>
+					<p>SimplePassVault allows you to export your records to a '.csv' format file in your SD card, so that you can backup them locally or online, using the "Send" option that will appear after pressing "OK".</p>
+				</div>
+			</article>
+
+			<article id="first" class="container box style1 left">
+				<a href="#" class="image fit"><img src="images/11_import.png" alt="" /></a>
+				<div class="inner">
+					<header>
+						<h2>Import Records</h2>
+					</header>
+					<p>SimplePassVault allows you to import your records from a '.csv' format file, so that you can transfer them across multiple devices, or access them quickly after buying a new smartphone or after an Android OS restore.</p>
+				</div>
+			</article>
+
+			<article class="container box style1 right">
+				<a href="#" class="image fit"><img src="images/12_settings_menu.png" alt="" /></a>
 				<div class="inner">
 					<header>
 						<h2>Settings Menu</h2>
 					</header>
-					<p>Via "settings menu" you can configure your APP options that include those of: 1)exiting the APP when you logout, 2)enabling/disabling APP password protection and 3)sorting custom types. Moreover, you can Manage custom types, modify your account or even delete it.</p>
+					<p>Via "Settings" you can configure your application options that include those of: 1) theme color and 2) record type icons. Moreover, you can Manage custom types, modify your account or even delete it. Press "About App" button to learn more about it!</p>
 				</div>
 			</article>
 
-				<!-- Feature 13 -->
-			<article id="first" class="container box style1 right">
+			<article id="first" class="container box style1 left">
 				<a href="#" class="image fit"><img src="images/13_simplepassvault.png" alt="" /></a>
 				<div class="inner">
 					<header>
@@ -205,7 +224,7 @@
 
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; SoKas Android Application 2014. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; SoKas Android Application 2014-2015. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
